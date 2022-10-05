@@ -17,20 +17,27 @@
 15. On the “Create a New Repository”, on the repository name, place the name of your project.
 16. When you scroll down, press on “Add a README file”.
 17. Scroll to the bottom of the page and click on “Create Repository”. 
-18. Make sure your branch is selected to "Main".
-19. Go back to webstorms and go to the sidebar and click on Git
-
+18. Copy the link at the top of the page.
+19. Go back to webstorms and go to the sidebar and click on Git.
+20. Enter the github repository name (Ex. https://github.com/username/RepoName.git)
+21. Enter the local path directory name.
+22. Create a new html file by selecting file > HTML file.
+23. To connect the changes made from webstorms to github, select the changes on the right hand side and press "commit and push" with a personal comment on the changes you have made.
+24. Go to your github repository page online to make sure that the changes have been made.
+25. To check your github pages as a published url, go to the settings of the repository.
+26. Make sure your branch is selected to "Main".
+27. On another tab, you will type your github.io (Ex. https://username.github.io/RepoName/)
 
 
 ## Glossary
-- **Branch**:
-- **Clone**:
-- **Commit**:
-- **Fetch**:
-- **GIT**:
-- **Github**:
-- **Merge**:
-- **Merge Conflict**:
-- **Push**:
-- **Remote**:
-- **Repository**:
+- **Branch**: Allows you to develop features and ideas in your repository. 
+- **Clone**: A copy of the remote repository to your local repository.
+- **Commit**: Saves your work or changes in a file.
+- **Fetch**: Tells your local git to get the info from the remote repository.
+- **GIT**: Software that tracks any changes in files that are associated with github in a local machine.
+- **Github**: Distributed version-control platform where users can create or collaborate on open source code projects
+- **Merge**: Command that allows several commits to integrate to one commit and merge into default branch
+- **Merge Conflict**: When git needs assistance selecting other competing branches that need to be selected into final merge
+- **Push**: Uploads changes from local repository to remote repository
+- **Remote**: The common repository (github) where changes can be made by various members 
+- **Repository**: Contains your project and the change history. 
